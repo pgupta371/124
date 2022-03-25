@@ -1,7 +1,7 @@
 from crypt import methods
 from flask import Flask, jsonify, request
 
-app = Flask('/')
+app = Flask()
 tasks = [{
     'id': 1,
     'Name': 'Sally',
